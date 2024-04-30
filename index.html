@@ -3,7 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="./res/0100_all/favicon.png" type="image/x-icon">
+        <link rel="shortcut icon" href="./res/0100_all/favicon.png"
+              type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Great+Vibes&family=Inter:wght@100..900&display=swap"
+              rel="stylesheet">
         <title>Baby photo</title>
         <link rel="shortcut icon" href="./res/0100_all/favicon.png" type="image/x-icon">
         <script src="https://cdn.tailwindcss.com"></script>
@@ -12,14 +17,21 @@
                 theme: {
                     extend: {
                         colors: {
-                            background: '#f8f8f8'
+                            background: '#f8f8f8',
+                            darkcream: '#DFD7D0',
+                            lightcream: '#F7EADF',
+                            lightblue: '#F7EADF',
+                        },
+                        fontFamily: {
+                            great: 'Great Vibes',
+                            courgette: "Courgette",
                         }
                     }
                 }
             }
         </script>
     </head>
-    <body class="bg-background text-xl">
+    <body class="bg-background text-xl font-courgette">
         <header class="w-full bg-white fixed top-0 right-0 left-0 p-7">
             <nav class="w-7/12 mx-auto flex justify-between gap-7">
                 <img src="https://placehold.co/90x90" alt="Logo Sarah Croche">
@@ -48,33 +60,52 @@
                 </ul>
             </nav>
         </header>
-        <!--start of the footer-->
-        <footer class="grid grid-cols-3 row-auto justify-items-center items-center" style="background-color: #DFD7D0;">
-            <!--section at the left in the footer-->
-            <section>
-                <p>Sed non tortorper inceptos himenaeos. Sed venenatis mauris in magna volutpat congue. Cras consectetur ultrices ante, nec varius</p>
-                <a href="./src/0070_contact.html" class="text-blue-200">Contact</a>
+        <main class="mx-80">
+            <section class="h-screen flex items-center">
+                <div>
+                    <h1 class="text-7xl font-great">Sarah Croche</h1>
+                    <h3 class="text-3xl font-courgette">Photographe pour bébés
+                    </h3>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
             </section>
-            <!--logo in the midle of the footer-->
-            <section class="flex flex-row justify-around">
-                <figure class="w-2/12"><a href="https://www.instagram.com/"><img src="./res/0100_all/logo-instagram.png" alt="instagram"></figure></a>
-                <figure class="w-2/12"><a href="https://twitter.com/home"><img src="./res/0100_all/logo-twitter.png" alt="twitter/X"></figure></a>
-                <figure class="w-2/12"><a href="https://www.facebook.com/"><img src="./res/0100_all/logo-facebook.png" alt="facebook"></figure></a>
-            </section>
-            <!--hourly open-->
-            <section class="text-center">
-                <ul>
-                    <li>Lundi: fermé</li>
-                    <li>Mardi: 10h-20h</li>
-                    <li>Mercredi: 10h-20h</li>
-                    <li>Jeudi: 10h-20h</li>
-                    <li>Vendredi: 10h-20h</li>
-                    <li>Samedi: 10h-20h</li>
-                    <li>dimanche: 10h-20h</li>
-                </ul>
-            </section>
-        </footer>
+        </main>
     </body>
-    </html>
-
-
+</html>
+<!--start of the footer-->
+<footer class="grid grid-cols-3 row-auto justify-items-center items-center"
+        style="background-color: #DFD7D0;">
+    <!--section at the left in the footer-->
+    <section>
+        <p>Sed non tortorper inceptos himenaeos. Sed venenatis mauris in magna
+            volutpat congue. Cras consectetur ultrices ante, nec varius</p>
+        <a href="./src/0070_contact.html" class="text-blue-200">Contact</a>
+    </section>
+    <!--logo in the midle of the footer-->
+    <section class="flex flex-row justify-around">
+        <figure class="w-2/12"><a href="https://www.instagram.com/"><img
+                     src="./res/0100_all/logo-instagram.png" alt="instagram">
+        </figure></a>
+        <figure class="w-2/12"><a href="https://twitter.com/home"><img
+                     src="./res/0100_all/logo-twitter.png" alt="twitter/X">
+        </figure></a>
+        <figure class="w-2/12"><a href="https://www.facebook.com/"><img
+                     src="./res/0100_all/logo-facebook.png" alt="facebook">
+        </figure></a>
+    </section>
+    <!--hourly open-->
+    <section class="text-center">
+        <ul>
+            <li>Lundi: fermé</li>
+            <li>Mardi: 10h-20h</li>
+            <li>Mercredi: 10h-20h</li>
+            <li>Jeudi: 10h-20h</li>
+            <li>Vendredi: 10h-20h</li>
+            <li>Samedi: 10h-20h</li>
+            <li>dimanche: 10h-20h</li>
+        </ul>
+    </section>
+</footer>
+</body>
+</html>
