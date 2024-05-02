@@ -24,6 +24,7 @@
                             darkcream: '#DFD7D0',
                             lightcream: '#F7EADF',
                             lightblue: '#DFECF7',
+                            brown: '#B3AAA6'
                         },
                         fontFamily: {
                             great: 'Great Vibes',
@@ -50,85 +51,97 @@
                                      alt="Logo Sarah Croche">
                             </figure>
                         </a>
-                        <label class="mr-10 block md:hidden hover:cursor-pointer hover:text-darkcream"
+                        <label class="mr-10 block md:hidden hover:cursor-pointer hover:text-brown"
                                for="check"><i
                                class="fa-solid fa-bars text-4xl"></i></label>
                     </div>
                     <ul
                         class="shadow md:shadow-none md:flex md:items-center z-[-1] md:opacity-100 opacity-0 md:w-auto md:z-auto text-nowrap md:static w-full absolute bg-white top-[-400px] left-0 transition-all ease-in duration-500 nav_list">
                         <li
-                            class="mx-3 my-6 md:my-0 text-darkcream underline decoration-2">
+                            class="mx-3 my-6 md:my-0 text-brown underline decoration-2">
                             <a href="/">Accueil</a>
                         </li>
-                        <li class="mx-3 my-6 md:my-0 hover:text-darkcream ">
+                        <li class="mx-3 my-6 md:my-0 hover:text-brown ">
                             <a href="./src/0020_studio.html">Le Studio</a>
                         </li>
-                        <li class="mx-3 my-6 md:my-0 hover:text-darkcream">
+                        <li class="mx-3 my-6 md:my-0 hover:text-brown">
                             <a href="./src/0030_gallery.html">Galerie</a>
                         </li>
-                        <li class="mx-3 my-6 md:my-0 hover:text-darkcream">
+                        <li class="mx-3 my-6 md:my-0 hover:text-brown">
                             <a href="./src/0040_prices.html">Tarifs</a>
                         </li>
-                        <li class="mx-3 my-6 md:my-0 hover:text-darkcream">
+                        <li class="mx-3 my-6 md:my-0 hover:text-brown">
                             <a href="./src/0050_blog.html">Blog</a>
                         </li>
-                        <li class="mx-3 my-6 md:my-0 hover:text-darkcream">
+                        <li class="mx-3 my-6 md:my-0 hover:text-brown">
                             <a href="./src/0060_about.html">À propos</a>
                         </li>
-                        <li class="mx-3 my-6 md:my-0 hover:text-darkcream">
+                        <li class="mx-3 my-6 md:my-0 hover:text-brown">
                             <a href="./src/0070_contact.html">Contacts</a>
                         </li>
                     </ul>
                 </nav>
             </section>
-        </header>
-        <main class="mx-80">
-            <section class="h-screen flex items-center">
-                <div>
-                    <h1 class="text-7xl font-great">Sarah Croche</h1>
-                    <h3 class="text-3xl font-courgette">Photographe pour bébés
-                    </h3>
-                    <a href=""></a>
-                    <a href=""></a>
+            <section class="bg-lightcream ">
+                <div
+                     class="w-full md:mt-0 pt-40 text-center md:h-screen md:justify-between lg:flex md:items-center mx-auto lg:max-w-[1500px] lg:pt-26 ">
+                    <div class="mb-20 mt-20">
+                        <h1
+                            class="text-6xl lg:text-7xl font-great text-stone-500">
+                            Sarah Croche </h1>
+                        <h3
+                            class="text-2xl lg:text-3xl font-courgette mb-5 text-stone-500 text-nowrap">
+                            Photographe pour bébés </h3>
+                        <div
+                             class="sm:flex sm:justify-center mx-auto max-w-[400px]">
+                            <a class="block px-[18px] py-[8px] bg-stone-500 text-white rounded-xl mx-4 hover:bg-stone-400 text-nowrap "
+                               href="./src/0060_about.html">Qui suis-je ?</a>
+                            <a class=" block px-[18px] py-[6px] mt-5 sm:mt-0 rounded-xl mx-4 border-[3px] border-stone-500 text-stone-500 text-nowrap hover:bg-stone-500 hover:text-lightcream"
+                               href="./src/0070_contact.html">Me contacter</a>
+                        </div>
+                    </div>
+                    <figure class="bg-white p-3 rounded-md">
+                        <img class="w-full lg:max-w-[700px] rounded-md"
+                             src="./res/0010_index/baby-5.jpg">
+                    </figure>
                 </div>
             </section>
+        </header>
+        <main class="mx-auto md:mx-32 lg:mx-80">
         </main>
+        <!--start of the footer-->
+        <footer class="flex flex-col bg-darkcream lg:flex-row justify-evenly items-center">
+            <!--section at the left in the footer-->
+            <section class="p-6 flex flex-col items-center text-center lg:w-2/6">
+                <p class="w-2/3">Sed non tortorper inceptos himenaeos. Sed venenatis mauris in magna
+                    volutpat congue. Cras consectetur ultrices ante, nec varius</p>
+                <a href="./src/0070_contact.html" class="bg-background p-1 pt-2 rounded-md border-prices-card">Contacts</a>
+            </section>
+            <!--logo in the midle of the footer-->
+            <section class="flex flex-row justify-around p-6 lg:w-2/6">
+                <figure class="w-2/12"><a href="https://www.instagram.com/"><img
+                            src="./res/0100_all/logo-instagram.png"
+                            alt="instagram"></a>
+                </figure>
+                <figure class="w-2/12"><a href="https://twitter.com/home">
+                        <img src="./res/0100_all/logo-twitter.png" alt="twitter/X"></a>
+                </figure>
+                <figure class="w-2/12"><a href="https://www.facebook.com/">
+                        <img src="./res/0100_all/logo-facebook.png" alt="facebook"></a>
+                </figure>
+            </section>
+            <!--hourly open-->
+            <section class="text-center p-6 lg:w-2/6">
+                <ul>
+                    <li>Lundi: fermé</li>
+                    <li>Mardi: 10h-20h</li>
+                    <li>Mercredi: 10h-20h</li>
+                    <li>Jeudi: 10h-20h</li>
+                    <li>Vendredi: 10h-20h</li>
+                    <li>Samedi: 10h-20h</li>
+                    <li>Dimanche: 10h-20h</li>
+                </ul>
+            </section>
+        </footer>
     </body>
-</html>
-<!--start of the footer-->
-<footer
-        class="grid grid-cols-3 row-auto justify-items-center items-center bg-darkcream">
-    <!--section at the left in the footer-->
-    <section>
-        <p>Sed non tortorper inceptos himenaeos. Sed venenatis mauris in magna
-            volutpat congue. Cras consectetur ultrices ante, nec varius</p>
-        <a href="./src/0070_contact.html" class="text-blue-400">Contacts</a>
-    </section>
-    <!--logo in the midle of the footer-->
-    <section class="flex flex-row justify-around">
-        <figure class="w-2/12"><a href="https://www.instagram.com/"><img
-                     src="./res/0100_all/logo-instagram.png"
-                     alt="instagram"></a>
-        </figure>
-        <figure class="w-2/12"><a href="https://twitter.com/home">
-                <img src="./res/0100_all/logo-twitter.png" alt="twitter/X"></a>
-        </figure>
-        <figure class="w-2/12"><a href="https://www.facebook.com/">
-                <img src="./res/0100_all/logo-facebook.png" alt="facebook"></a>
-        </figure>
-    </section>
-    <!--hourly open-->
-    <section class="text-center">
-        <ul>
-            <li>Lundi: fermé</li>
-            <li>Mardi: 10h-20h</li>
-            <li>Mercredi: 10h-20h</li>
-            <li>Jeudi: 10h-20h</li>
-            <li>Vendredi: 10h-20h</li>
-            <li>Samedi: 10h-20h</li>
-            <li>Dimanche: 10h-20h</li>
-        </ul>
-    </section>
-</footer>
-</body>
 </html>
