@@ -1,6 +1,16 @@
 .border-prices-card {
+  box-shadow: 0px 0px 10px 0px rgba(68, 68, 68, 0.8);
+}
+.border-prices-card article {
   border-top: solid black 2px;
   border-bottom: solid black 2px;
+}
+.border-prices-card button {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.7rem;
+  border: solid black 1px;
+  border-radius: 1rem;
 }
 
 .grid_gallery {
@@ -13,22 +23,6 @@
 
 .header-gallery {
   box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.4);
-}
-@media screen and (min-width: 1024px) {
-  .header-gallery:hover {
-    transform: scale(1.01);
-  }
-  .header-gallery:hover:after {
-    opacity: 0;
-  }
-}
-@media screen and (min-width: 400px) {
-  .header-gallery:hover {
-    transform: scale(1.05);
-  }
-  .header-gallery:hover:after {
-    opacity: 0;
-  }
 }
 
 .item_gallery {
@@ -126,22 +120,6 @@
 
 .header-gallery {
   box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.4);
-}
-@media screen and (min-width: 1024px) {
-  .header-gallery:hover {
-    transform: scale(1.01);
-  }
-  .header-gallery:hover:after {
-    opacity: 0;
-  }
-}
-@media screen and (min-width: 400px) {
-  .header-gallery:hover {
-    transform: scale(1.05);
-  }
-  .header-gallery:hover:after {
-    opacity: 0;
-  }
 }
 
 .item_gallery {
