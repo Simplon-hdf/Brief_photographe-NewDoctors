@@ -111,4 +111,9 @@
   color: #444;
 }
 
+#check:checked ~ .nav_list {
+  top: 120px;
+  opacity: 100;
+}
+
 /*# sourceMappingURL=style.css.map */
