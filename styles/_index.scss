@@ -3,10 +3,12 @@
 
 @import "base/_reset.scss";
 
+@import "components/border.scss";
+@import "components/gallery.scss";
+@import "components/gallery.scss";
+
 @import "layout/_header.scss";
 @import "layout/_aside.scss";
 @import "layout/_main.scss";
 @import "layout/_footer.scss";
 
-@import "components/gallery.scss";
-@import "components/navbar.scss"
