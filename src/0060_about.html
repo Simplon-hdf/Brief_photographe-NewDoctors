@@ -34,6 +34,7 @@
             }
         </script>
         <link rel="stylesheet" href="../style.css">
+            
     </head>
     <body class="bg-background text-xl font-courgette">
         <header>
@@ -84,18 +85,22 @@
         </header>
 
         <!--start of the main section-->
-        <main>
+        <main class="flex flex-col items-center">
+
             <!--img at the start of the main-->
-            <figure class="flex justify-center p-3 pt-40"><img
-                class="lg:w-4/5 h-1/6 header-gallery "
+            <figure class="flex justify-center p-3 pt-40 lg:w-4/5"><img
+                class="lg:w-4/5 h-1/6 header-gallery"
                 src="../res/0060_about/sarah-croche.jpg" alt="Photo de la photographe">
            </figure>
-           
-           <section>
-                <article><p>Avec 20 ans d'expérience en photographie, dont une décennie dédiée aux bébés, je suis passionnée par la capture des moments les plus précieux de la vie. En autodidacte dévouée, j'ai transformé ma passion en métier, me forgeant un chemin à travers des milliers de clichés. Maîtrisant les outils numériques avec aisance, j'utilise toute la gamme des technologies disponibles pour sublimer mes œuvres, y compris la retouche photo. Cependant, au-delà de la technique, ma priorité absolue demeure la sécurité des enfants. Chaque séance est orchestrée avec une attention minutieuse pour garantir un environnement sûr et confortable, où les sourires des petits modèles peuvent briller en toute tranquillité.</p></article>
-                <figure><img src="../res/0060_about/sarah-croche-mask.jpg" alt="Photo de la photographe"></figure>
+
+           <!--image and texte in the midle of the main-->
+           <section class="flex flex-col items-center pt-3 lg:flex-row lg:items-center lg:justify-evenly">
+                <article class="w-5/12 lg:w-4/5"><p>Avec 20 ans d'expérience en photographie, dont une décennie dédiée aux bébés, je suis passionnée par la capture des moments les plus précieux de la vie. En autodidacte dévouée, j'ai transformé ma passion en métier, me forgeant un chemin à travers des milliers de clichés. Maîtrisant les outils numériques avec aisance, j'utilise toute la gamme des technologies disponibles pour sublimer mes œuvres, y compris la retouche photo. Cependant, au-delà de la technique, ma priorité absolue demeure la sécurité des enfants. Chaque séance est orchestrée avec une attention minutieuse pour garantir un environnement sûr et confortable, où les sourires des petits modèles peuvent briller en toute tranquillité.</p></article>
+                <figure class="w-5/12 lg:w-4/5 header-gallery"><img src="../res/0060_about/sarah-croche-mask.jpg" alt="Photo de la photographe"></figure>
            </section>
-           <a href="./0030_gallery.html" class="bg-background p-1 pt-2 rounded-md border-prices-card">Voir mes creation</a>
+
+           <!--"button" at the end of the main-->
+           <a href="./0030_gallery.html" class="bg-background p-1 pt-2 my-6 rounded-md border-prices-card">Voir mes creation</a>
 
         </main>
     <!--start of the footer-->
