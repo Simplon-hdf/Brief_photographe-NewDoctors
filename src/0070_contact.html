@@ -84,8 +84,9 @@
             </section>
         </header>
         <main class="mx-4 lg:mx-32">
-            <section class="pt-20 lg:flex lg:justify-between lg:gap-16">
-                <div class="hidden lg:block w-full">
+            <section
+                     class="pt-20 lg:flex lg:justify-between lg:gap-16 mx-auto max-w-[1400px]">
+                <div class="hidden lg:block w-full lg:max-w-[700px]">
                     <figure class="flex justify-start">
                         <img class="w-80" src="https://placehold.co/100x100"
                              alt="photo">
@@ -106,6 +107,8 @@
                            type="email" placeholder="Email ..">
                     <input class="block w-full h-5 rounded-md shadow p-7 mt-5"
                            type="number" placeholder="Age ..">
+                    <textarea class="block w-full rounded-md shadow p-7 mt-5"
+                              placeholder="Message .."></textarea>
                     <button class="block bg-lightcream text-brown mt-3 px-6 py-2 rounded-md"
                             type="submit">Envoyer</button>
                 </form>
