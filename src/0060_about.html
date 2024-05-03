@@ -35,10 +35,9 @@
             }
         </script>
         <link rel="stylesheet" href="../style.css">
-            
     </head>
     <body class="bg-background text-xl font-courgette">
-        <header>
+        <header class="mt-40">
             <section class="w-full bg-white fixed top-0 right-0 left-0 shadow">
                 <nav
                      class="w-full md:flex md:justify-between lg:justify-center gap-7 ">
@@ -84,45 +83,69 @@
                 </nav>
             </section>
         </header>
-
         <!--start of the main section-->
-        <main class="flex flex-col items-center">
-
+        <main class="flex flex-col items-center mx-5 lg:mx-32">
             <!--img at the start of the main-->
-            <figure class="flex justify-center p-3 pt-40 lg:w-4/5"><img
-                class="lg:w-4/5 h-1/6 header-gallery"
-                src="../res/0060_about/sarah-croche.jpg" alt="Photo de la photographe">
-           </figure>
-
-           <!--image and texte in the midle of the main-->
-           <section class="flex flex-col items-center pt-3 lg:flex-row lg:items-center lg:justify-evenly">
-                <article class="w-5/12 lg:w-4/5"><p>Avec 20 ans d'expérience en photographie, dont une décennie dédiée aux bébés, je suis passionnée par la capture des moments les plus précieux de la vie. En autodidacte dévouée, j'ai transformé ma passion en métier, me forgeant un chemin à travers des milliers de clichés. Maîtrisant les outils numériques avec aisance, j'utilise toute la gamme des technologies disponibles pour sublimer mes œuvres, y compris la retouche photo. Cependant, au-delà de la technique, ma priorité absolue demeure la sécurité des enfants. Chaque séance est orchestrée avec une attention minutieuse pour garantir un environnement sûr et confortable, où les sourires des petits modèles peuvent briller en toute tranquillité.</p></article>
-                <figure class="w-5/12 lg:w-4/5 header-gallery"><img src="../res/0060_about/sarah-croche-mask.jpg" alt="Photo de la photographe"></figure>
-           </section>
-
-           <!--"button" at the end of the main-->
-           <a href="./0030_gallery.html" class="bg-background p-1 pt-2 my-6 rounded-md border-prices-card">Voir mes creation</a>
-
+            <!-- <figure class="flex justify-center p-3 pt-40 lg:w-4/5"><img
+                     class="lg:w-4/5 h-1/6 header-gallery"
+                     src="../res/0060_about/sarah-croche.jpg"
+                     alt="Photo de la photographe">
+            </figure> -->
+            <!--image and texte in the midle of the main-->
+            <section
+                     class="flex flex-col items-center pt-3 lg:flex-row lg:items-center lg:justify-between lg:gap-10">
+                <article class="w-full lg:w-4/5 ">
+                    <h1 class="text-5xl font-semibold mb-5">Qui suis-je ?</h1>
+                    <p class="w-full mb-7">Avec 20 ans d'expérience en
+                        photographie, dont une décennie dédiée aux bébés, je
+                        suis passionnée par la capture des moments les plus
+                        précieux de la vie. En autodidacte dévouée, j'ai
+                        transformé ma passion en métier, me forgeant un chemin à
+                        travers des milliers de clichés. Maîtrisant les outils
+                        numériques avec aisance, j'utilise toute la gamme des
+                        technologies disponibles pour sublimer mes œuvres, y
+                        compris la retouche photo. Cependant, au-delà de la
+                        technique, ma priorité absolue demeure la sécurité des
+                        enfants. Chaque séance est orchestrée avec une attention
+                        minutieuse pour garantir un environnement sûr et
+                        confortable, où les sourires des petits modèles peuvent
+                        briller en toute tranquillité. </p>
+                    <a href="./0030_gallery.html"
+                       class="bg-brown px-5 py-3 my-6 rounded-md shadow text-white hover:bg-darkcream">Voir
+                        mes creation</a>
+                </article>
+                <figure class="w-full mt-10 lg:mt-0 lg:w-4/5 header-gallery">
+                    <img src="../res/0060_about/sarah-croche-mask.jpg"
+                         alt="Photo de la photographe">
+                </figure>
+            </section>
+            <!--"button" at the end of the main-->
         </main>
-    <!--start of the footer-->
-        <footer class="flex flex-col bg-darkcream lg:flex-row justify-evenly items-center">
+        <!--start of the footer-->
+        <footer
+                class="flex flex-col bg-darkcream lg:flex-row justify-evenly items-center mt-10">
             <!--section at the left in the footer-->
-            <section class="p-6 flex flex-col items-center text-center lg:w-2/6">
-                <p class="w-2/3">Sed non tortorper inceptos himenaeos. Sed venenatis mauris in magna
-                    volutpat congue. Cras consectetur ultrices ante, nec varius</p>
-                <a href="./src/0070_contact.html" class="bg-background p-1 pt-2 rounded-md border-prices-card">Contacts</a>
+            <section
+                     class="p-6 flex flex-col items-center text-center lg:w-2/6">
+                <p class="w-2/3">Sed non tortorper inceptos himenaeos. Sed
+                    venenatis mauris in magna volutpat congue. Cras consectetur
+                    ultrices ante, nec varius</p>
+                <a href="./src/0070_contact.html"
+                   class="bg-background p-1 pt-2 rounded-md border-prices-card">Contacts</a>
             </section>
             <!--logo in the midle of the footer-->
             <section class="flex flex-row justify-around p-6 lg:w-2/6">
                 <figure class="w-2/12"><a href="https://www.instagram.com/"><img
-                            src="../res/0100_all/logo-instagram.png"
-                            alt="instagram"></a>
+                             src="../res/0100_all/logo-instagram.png"
+                             alt="instagram"></a>
                 </figure>
                 <figure class="w-2/12"><a href="https://twitter.com/home">
-                        <img src="../res/0100_all/logo-twitter.png" alt="twitter/X"></a>
+                        <img src="../res/0100_all/logo-twitter.png"
+                             alt="twitter/X"></a>
                 </figure>
                 <figure class="w-2/12"><a href="https://www.facebook.com/">
-                        <img src="../res/0100_all/logo-facebook.png" alt="facebook"></a>
+                        <img src="../res/0100_all/logo-facebook.png"
+                             alt="facebook"></a>
                 </figure>
             </section>
             <!--hourly open-->
