@@ -54,22 +54,22 @@
   background-image: url("../res/0030_galerie/baby-8.jpg");
 }
 .item_gallery:nth-of-type(4n) {
-  background-image: url("../res/0030_galerie/baby-2.jpg");
+  background-image: url("./res/0030_galerie/baby-2.jpg");
 }
 .item_gallery:nth-of-type(5n) {
-  background-image: url("../res/0030_galerie/baby-3.jpg");
+  background-image: url("./res/0030_galerie/baby-3.jpg");
 }
 .item_gallery:nth-of-type(6n) {
-  background-image: url("../res/0030_galerie/baby-4.jpg");
+  background-image: url("./res/0030_galerie/baby-4.jpg");
 }
 .item_gallery:nth-of-type(7n) {
-  background-image: url("../res/0030_galerie/baby-5.jpg");
+  background-image: url("./res/0030_galerie/baby-5.jpg");
 }
 .item_gallery:nth-of-type(8n) {
-  background-image: url("../res/0030_galerie/baby-7.jpg");
+  background-image: url("./res/0030_galerie/baby-7.jpg");
 }
 .item_gallery:nth-of-type(9n) {
-  background-image: url("../res/0030_galerie/baby-9.jpg");
+  background-image: url("./res/0030_galerie/baby-9.jpg");
 }
 .item_gallery:hover {
   transform: scale(1.05);
@@ -77,14 +77,20 @@
 .item_gallery:hover:after {
   opacity: 0;
 }
-.item_gallery--medium {
-  grid-row-end: span 2;
+@media (min-width: 800px) {
+  .item_gallery--medium {
+    grid-row-end: span 2;
+  }
 }
-.item_gallery--large {
-  grid-row-end: span 3;
+@media (min-width: 800px) {
+  .item_gallery--large {
+    grid-row-end: span 3;
+  }
 }
-.item_gallery--full {
-  grid-column-end: auto;
+@media (min-width: 800px) {
+  .item_gallery--full {
+    grid-column-end: auto;
+  }
 }
 @media screen and (min-width: 768px) {
   .item_gallery--full {
