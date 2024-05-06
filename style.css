@@ -77,14 +77,20 @@
 .item_gallery:hover:after {
   opacity: 0;
 }
-.item_gallery--medium {
-  grid-row-end: span 2;
+@media (min-width: 800px) {
+  .item_gallery--medium {
+    grid-row-end: span 2;
+  }
 }
-.item_gallery--large {
-  grid-row-end: span 3;
+@media (min-width: 800px) {
+  .item_gallery--large {
+    grid-row-end: span 3;
+  }
 }
-.item_gallery--full {
-  grid-column-end: auto;
+@media (min-width: 800px) {
+  .item_gallery--full {
+    grid-column-end: auto;
+  }
 }
 @media screen and (min-width: 768px) {
   .item_gallery--full {

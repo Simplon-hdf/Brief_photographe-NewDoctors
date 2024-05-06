@@ -73,15 +73,24 @@
     }
 
     &--medium {
-        grid-row-end: span 2;
+        @media (min-width: 800px) {
+            grid-row-end: span 2; 
+          }
+        
     }
 
     &--large {
-        grid-row-end: span 3;
+        @media (min-width: 800px) {
+            grid-row-end: span 3;   
+        }
+        
     }
 
     &--full {
-        grid-column-end: auto;
+        
+        @media (min-width: 800px) {
+            grid-column-end: auto;    
+        }
 
         @media screen and (min-width: 768px) {
             grid-column: 1/-1;
