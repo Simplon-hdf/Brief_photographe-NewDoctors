@@ -15,7 +15,7 @@
 ---
 
 ### About The Project
-
+For this project we had to create the website of a photographer with no specific visual in mind. The website had to be responsive and to present her work and the different formulas she offer.
 ---
 
 ### Built With
@@ -35,6 +35,9 @@
 </details>
 
 ## Author
+Hugo W
+Renaud B
+Arthur C
 
 ## License
 
